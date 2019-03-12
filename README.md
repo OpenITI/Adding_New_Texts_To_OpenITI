@@ -30,6 +30,13 @@ URI:
 Language:
 Author:
 Book:
+Manuscript:
+BibTitle:
+BibPlace:
+BibPublisher:
+BibEditor:
+BibPlace:
+BibDate:
 ```
 
 ## An example of how information should be added
@@ -42,6 +49,8 @@ Book:
 - **Language**. The language of the text (if multiple, separate with commas)
 - **Author**. Sufficient description on the author should be added --- use an example below as a guide
 - **Book**. Sufficient description on the text should be added --- use an example below as a guide
+- **Manuscript.** Fill this one only if your text is your own transcription of a manuscript. add a free-runing description of the manuscript.
+- **Bib**-*fields* should include relevant information on the edition, if the text is based on a specific edition.
 
 ```
 fileID: MGR2019031201
@@ -70,6 +79,12 @@ Book: (from EI2) His greatest work is the Taʾrīk̲h̲ al-Islām
     obituary notices of persons whose exact dates of death could not be
     stated. The relation of the extent of the general narrative to that of
     the obituary notices is, on an average, 1 to 6 or 7.
+BibTitle: include here the title as it appears in the printed edition ()
+BibPlace: place of publication
+BibPublisher: publisher and edition number
+BibEditor: name of the editor
+BibPlace: place of publication
+BibDate: year of publication
 ```
 
 # Repository structure
