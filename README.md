@@ -4,21 +4,22 @@ Repository to streamline the process of adding new texts to OpenITI
 
 The overall workflow is as follows:
 
-1. Folder `new_texts` can be used to add texts that should be included into OpenITI.
+1. **Folder `new_texts` can be used to add texts that should be included into OpenITI.**
   - users can `fork` this repository and add a text that would like to include into OpenITI into the `new_texts` folder.
   - the text should be assigned an ID, which should be generated in the following manner:
     - `MGR2019031201`, where MGR is the initials of a scholar (here: Maxim G. Romanov), and the numbers are 2019-03-12-01, meaning that the text has been added to the repository at 1am, on the 12th of March, 2019. This structure should allow to add small batches of files. The file should have no extension. **NB:** you can also use the preceding dates, if your batch is large.
     - for each text file a short metadata file should be added (see the description below; you can copy paste the tamplate from there as well). This file should be named with the same ID. E.g., `MGR2019031201`, but an extension `.yml` should be added to it. That is the name of this file would look like `MGR2019031201.yml`).
   - the user then sends a pull request with a short message.
-2. The OpenITI team member then:
+2. **The OpenITI team member then:**
   - verifies submitted data
   - if a text is approved, a `process: yes` value should be added to its metadata `yml` file
   - the URI might need to be assigned
-3. The integration script is executed:
+3. **The integration script is executed:**
   - the place of the new text is derived from the URIs
   - all required subfolders are created (if necessary)
   - the text file is renamed and copied to the newly created folders
   - the processed text file from the `new_texts` (together with its metadata file) is moved to the `processed_texts` folder.
+  - [the changes are automatically pushed to the relevant github repositories]
 
 # Metadata file
 
