@@ -19,6 +19,7 @@ The overall workflow is as follows:
   - all required subfolders are created (if necessary)
   - the text file is renamed and copied to the newly created folders
   - the processed text file from the `new_texts` (together with its metadata file) is moved to the `processed_texts` folder.
+  - subject/genre tags are reformatted into *initials* from the ID + `@` + `keyword` (for example: `MGR@UrbanHistory`)
   - [the changes are automatically pushed to the relevant github repositories]
 
 # Metadata file
@@ -38,6 +39,7 @@ BibPublisher:
 BibEditor:
 BibPlace:
 BibDate:
+Subjects:
 ```
 
 ## An example of how information should be added
@@ -52,6 +54,7 @@ BibDate:
 - **Book**. Sufficient description on the text should be added --- use an example below as a guide
 - **Manuscript.** Fill this one only if your text is your own transcription of a manuscript. add a free-runing description of the manuscript.
 - **Bib**-*fields* should include relevant information on the edition, if the text is based on a specific edition.
+- **Subjects**. Feel free to add as many keywords (subject, genre, etc.) as you see fit; If a keyword is compound, please write it in one word, using camelcase (for example, `UrbanHistory`).
 
 ```
 fileID: MGR2019031201
