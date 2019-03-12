@@ -9,18 +9,19 @@ The overall workflow is as follows:
   - the text should be assigned an ID, which should be generated in the following manner:
     - `MGR2019031201`, where MGR is the initials of a scholar (here: Maxim G. Romanov), and the numbers are 2019-03-12-01, meaning that the text has been added to the repository at 1am, on the 12th of March, 2019. This structure should allow to add small batches of files. The file should have no extension. **NB:** you can also use the preceding dates, if your batch is large.
     - for each text file a short metadata file should be added (see the description below; you can copy paste the tamplate from there as well). This file should be named with the same ID. E.g., `MGR2019031201`, but an extension `.yml` should be added to it. That is the name of this file would look like `MGR2019031201.yml`).
-  - they then send a pull request, where they suggest a URI for their new texts.
-    - the users should first check whether relevant URIs already exist (either for the author or the book).
-    - if the URI does not exist, the users should use the logic described here: <https://maximromanov.github.io/OpenITI/#a-note-on-the-principles-of-assigning-human-readable-uris>
-    - if the process seems complicated, the users should just provide information about the author and the book, and the URI will be assigned by the OpenITI team members.
+  - the user then sends a pull request with a short message.
+
+2. 
 
 # Metadata file
 
 ## Template for copy/pasting
 
 ```
+process: yes
 fileID: 
 URI:
+Language:
 Author:
 Book:
 ```
@@ -28,7 +29,10 @@ Book:
 ## An example of how information should be added
 
 - **fileID**. The file ID must be provided
-- **URI**. The URI should be suggested, but the field can be left empty
+- **URI**. The URI should be suggested, but the field can be left empty.
+  - the users should first check whether relevant URIs already exist (either for the author or the book).
+  - if the URI does not exist, the users should use the logic described here: <https://maximromanov.github.io/OpenITI/#a-note-on-the-principles-of-assigning-human-readable-uris>
+  - if the process seems complicated, the users should just provide information about the author and the book, and the URI will be assigned by the OpenITI team members.
 - **Language**. The language of the text (if multiple, separate with commas)
 - **Author**. Sufficient description on the author should be added --- use an example below as a guide
 - **Book**. Sufficient description on the text should be added --- use an example below as a guide
