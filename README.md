@@ -71,3 +71,12 @@ Book: (from EI2) His greatest work is the Taʾrīk̲h̲ al-Islām
     stated. The relation of the extent of the general narrative to that of
     the obituary notices is, on an average, 1 to 6 or 7.
 ```
+
+# Repository structure
+
+```
+dir: new_texts
+dir: processed_texts
+fil: processing_script.py
+fil: README.md (this file)
+```
