@@ -83,12 +83,13 @@ Book: (from EI2) His greatest work is the Taʾrīk̲h̲ al-Islām
     obituary notices of persons whose exact dates of death could not be
     stated. The relation of the extent of the general narrative to that of
     the obituary notices is, on an average, 1 to 6 or 7.
-BibTitle: include here the title as it appears in the printed edition ()
+BibTitle: include here the title as it appears in the printed edition
 BibPlace: place of publication
 BibPublisher: publisher and edition number
 BibEditor: name of the editor
 BibPlace: place of publication
 BibDate: year of publication
+Subjects: Chronicle, BiographicalCollection, History, GeneralHistory
 ```
 
 # Repository structure
