@@ -32,12 +32,14 @@ Book:
 
 - **fileID**. The file ID must be provided
 - **URI**. The URI should be suggested, but the field can be left empty
+- **Language**. The language of the text (if multiple, separate with commas)
 - **Author**. Sufficient description on the author should be added --- use an example below as a guide
 - **Book**. Sufficient description on the text should be added --- use an example below as a guide
 
 ```
 fileID: MGR2019031201
 URI: 0748Dhahabi.TarikhIslam
+language: Arabic 
 Author: (from EI2) al-Ḏh̲ahabī, S̲h̲ams al-Dīn Abū ʿAbd Allāh
     Muḥammad b. ʿUt̲h̲mān b. Ḳāymāẓ b. ʿAbd Allāh al-Turkumānī al-Fāriḳī
     alDimas̲h̲ḳī al-S̲h̲āfiʿī, an Arab historian and theologian, was born at
